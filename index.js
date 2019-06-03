@@ -1,3 +1,7 @@
+/**
+ * Author: Mariana Azevedo
+ * Since: 02/06/2019
+ */
 const puppeteer = require("puppeteer");
 const cheerio = require("cheerio");
 
@@ -6,7 +10,7 @@ let browser;
 async function scrapeHomesInIndexPage(url){
     try{
         const page = await browser.newPage();
-        await page.goto(url);
+        await page.goto(url, { waitUntil: "networkidle2" });
         
         const html = await page.evaluate(() => document.body.innerHTML);
         const $ = await cheerio.load(html);
@@ -21,6 +25,7 @@ async function scrapeHomesInIndexPage(url){
 }
 
 async function scrapeDescriptionPage(url, page){
+    let roomText;
     try{
         await page.goto(url, {waitUntil: "networkidle2"});
 
@@ -28,10 +33,35 @@ async function scrapeDescriptionPage(url, page){
         const $ = await cheerio.load(html);
         const pricePerNight = 
             $("#room > div._mwt4r90 > div > div._2h22gn > div._1av41w02 > div > div > div._gor68n > div > div > div:nth-child(1) > div > div > div > div > div._10ejfg4u > div > div > div:nth-child(1) > span > div > div > span._tw4pe52 > span").text();
-        console.log(pricePerNight);
+        
+        //Regular expressions were used 'cause the room's information component could be changed per announce
+        roomText = $("#room").text();
+
+        //Room's information component for announces in portuguese
+        const guestsAllowed = returnMatches(roomText, /\d+ (hóspede((e)?s)?)/);
+        const bedrooms = returnMatches(roomText, /\d+ (quarto((e)?s)?)/);
+        const baths = returnMatches(roomText, /\d+ (banheiro((e)?s)?)/);
+        const beds = returnMatches(roomText, /\d+ (cama((e)?s)?)/);
+
+        return { url, pricePerNight, guestsAllowed, bedrooms, baths, beds };
+        
     } catch (e){
+        console.error(roomText);
+        console.error(url);
         console.error(e);
     }
+}
+
+function returnMatches(roomText, regex){
+    const regExMatches = roomText.match(regex);
+    let result = "N/A";
+    if (regExMatches != null){
+        result = regExMatches[0];
+    } else {
+        throw `No regex matches found for: ${regex}`;
+    }
+
+    return result;
 }
 
 async function main(){
@@ -42,7 +72,8 @@ async function main(){
     );
 
     for(var i = 0; i < homes.length; i++){
-        await scrapeDescriptionPage(homes[i], descriptionPage);
+        const result = await scrapeDescriptionPage(homes[i], descriptionPage);
+        console.log(result);
     }
 }
 
