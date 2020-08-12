@@ -23,7 +23,7 @@
     "cheerio": "^1.0.0-rc.3",
     "minimist": "^1.2.5",
     "puppeteer": "^3.3.0",
-    "snyk": "^1.362.1"
+    "snyk": "^1.364.0"
   },
   "snyk": true
 }
