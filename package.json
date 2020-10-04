@@ -22,9 +22,9 @@
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
     "minimist": "^1.2.5",
-    "npm-check-updates": "^9.0.1",
-    "puppeteer": "^5.3.0",
-    "snyk": "^1.393.0"
+    "npm-check-updates": "^9.0.3",
+    "puppeteer": "^5.3.1",
+    "snyk": "^1.406.0"
   },
   "snyk": true
 }
