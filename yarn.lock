@@ -2873,7 +2873,7 @@ npm-bundled@^1.1.1:
   dependencies:
     npm-normalize-package-bin "^1.0.1"
 
-npm-check-updates@^11.1.10:
+npm-check-updates@^11.2.0:
   version "11.3.0"
   resolved "https://registry.yarnpkg.com/npm-check-updates/-/npm-check-updates-11.3.0.tgz#f1af6da11be5a54ffe3c1065ce34de0f2ba2595a"
   integrity sha512-7GMDj40cWw/nRn3BsN+20ca3T6CvHqIiFhooVa5a3VybrS7TNBdbR3/BIi9dw4vFORgFZw/OsW3ZtRTFamnPDQ==
