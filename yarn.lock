@@ -149,10 +149,10 @@
     js-yaml "^3.13.1"
     tslib "^1.10.0"
 
-"@snyk/code-client@3.4.0":
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/@snyk/code-client/-/code-client-3.4.0.tgz#7741abef6dcf5dfc50a1a0538918972360c5a1e7"
-  integrity sha512-RY2IftAiWB7tp36Mcq7WiEwqoD8A/mqrD6N7oDWTxBOIqsH0t4djo/UibiWDJotaffO9aXXndOf3iZ/kTt+Rdg==
+"@snyk/code-client@3.4.1":
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/@snyk/code-client/-/code-client-3.4.1.tgz#b9d025897cd586e0aef903162ac0407d0bffc3cd"
+  integrity sha512-XJ7tUdX1iQyzN/BmHac7p+Oyw1SyTcqSkCNExwBJxyQdlnUAKK6QKIWLXS81tTpZ79FgCdT+0fdS0AjsyS99eA==
   dependencies:
     "@deepcode/dcignore" "^1.0.2"
     "@snyk/fast-glob" "^3.2.6-patch"
@@ -278,10 +278,10 @@
     micromatch "^4.0.2"
     picomatch "^2.2.1"
 
-"@snyk/fix@1.526.0":
-  version "1.526.0"
-  resolved "https://registry.yarnpkg.com/@snyk/fix/-/fix-1.526.0.tgz#589bc5e6745b1f81f36cfa46199d98871113e7b7"
-  integrity sha512-+aMUNRhOdoN4YPGxXlN9+NwvKOr/DNBCGgC8DnNSujcJ9Nj1M8oHrnVoTy56/tgbJ8qyw/zwmCKAm383CfURKg==
+"@snyk/fix@1.547.0":
+  version "1.547.0"
+  resolved "https://registry.yarnpkg.com/@snyk/fix/-/fix-1.547.0.tgz#08797c34887eca58c9dfe387042abdbc1937a8ad"
+  integrity sha512-ANTkn8PHsmPelQ8W8aiS+R3JBzUr0fjcHT67eTvr2a0h51qzzgBFEwhd8GH1Wuo0Nmvm3bsKkk5DxkxTtQWPtw==
   dependencies:
     "@snyk/dep-graph" "^1.21.0"
     chalk "4.1.0"
@@ -435,14 +435,15 @@
     tar-stream "^2.1.2"
     tmp "^0.1.0"
 
-"@snyk/snyk-hex-plugin@1.1.1":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@snyk/snyk-hex-plugin/-/snyk-hex-plugin-1.1.1.tgz#7b399852aaf3779f757a2400dcf59adc87f47f0a"
-  integrity sha512-NXgslDo6qSvsKy2cR3Yoo/Z6A3Svae9a96j+0OUnvcZX7i6JeODreqXFD1k0vPM2JnL1G7qcdblPxz7M7ZAZmQ==
+"@snyk/snyk-hex-plugin@1.1.2":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@snyk/snyk-hex-plugin/-/snyk-hex-plugin-1.1.2.tgz#8e70bf8edf2802466d49afb31265a65a69246dc9"
+  integrity sha512-8zj19XxlBqTfe12CoeVgT0WtRBk0HEjJVO8hYB/AM71XVjucFzQT4/e/hR8mCUSA7i+B/F8X8iGPhs7Uj3J+zA==
   dependencies:
     "@snyk/dep-graph" "^1.28.0"
     "@snyk/mix-parser" "^1.1.1"
     debug "^4.3.1"
+    tmp "^0.0.33"
     tslib "^2.0.0"
     upath "2.0.1"
 
@@ -4247,22 +4248,22 @@ snyk-try-require@^2.0.0:
     lodash.clonedeep "^4.3.0"
     lru-cache "^5.1.1"
 
-snyk@^1.509.0:
-  version "1.538.0"
-  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.538.0.tgz#870c6d205efd6d03d1898a12461321f94150c6f2"
-  integrity sha512-lq2/Ykzec9XacniZpkZaJPQDyBDWqgUsdugn6Kcm+ba2RJU72Dr6VSnIQPQ9ebe9nbNriABmURnLmH9aApiWew==
+snyk@^1.511.0:
+  version "1.551.0"
+  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.551.0.tgz#15234b451f6d2dbb08d55034814caafbea7104f4"
+  integrity sha512-Z2fh6n/EGO/2ILLOeFvJpWAHSZjOtKDACtfK+Xm/ob+SoAOjEPGdGlFt0RmCUV/VGxfP1aRZ8zkxnj573OmPPA==
   dependencies:
     "@open-policy-agent/opa-wasm" "^1.2.0"
     "@snyk/cli-interface" "2.11.0"
     "@snyk/cloud-config-parser" "^1.9.2"
-    "@snyk/code-client" "3.4.0"
+    "@snyk/code-client" "3.4.1"
     "@snyk/dep-graph" "^1.27.1"
-    "@snyk/fix" "1.526.0"
+    "@snyk/fix" "1.547.0"
     "@snyk/gemfile" "1.2.0"
     "@snyk/graphlib" "^2.1.9-patch.3"
     "@snyk/inquirer" "^7.3.3-patch"
     "@snyk/snyk-cocoapods-plugin" "2.5.2"
-    "@snyk/snyk-hex-plugin" "1.1.1"
+    "@snyk/snyk-hex-plugin" "1.1.2"
     abbrev "^1.1.1"
     ansi-escapes "3.2.0"
     chalk "^2.4.2"
