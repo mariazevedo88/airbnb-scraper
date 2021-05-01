@@ -24,7 +24,7 @@
     "minimist": "^1.2.5",
     "npm-check-updates": "^11.4.1",
     "puppeteer": "^7.1.0",
-    "snyk": "^1.521.0"
+    "snyk": "^1.529.0"
   },
   "snyk": true
 }
