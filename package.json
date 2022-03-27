@@ -21,7 +21,7 @@
   "homepage": "https://github.com/mariazevedo88/airbnb-scraper#readme",
   "dependencies": {
     "cheerio": "^1.0.0-rc.10",
-    "minimist": "^1.2.5",
+    "minimist": "^1.2.6",
     "npm-check-updates": "^12.4.0",
     "puppeteer": "^13.4.0",
     "snyk": "^1.858.0"
