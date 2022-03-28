@@ -23,7 +23,7 @@
     "cheerio": "^1.0.0-rc.10",
     "minimist": "^1.2.6",
     "npm-check-updates": "^12.4.0",
-    "puppeteer": "^13.4.1",
+    "puppeteer": "^13.5.0",
     "snyk": "^1.858.0"
   },
   "snyk": true
