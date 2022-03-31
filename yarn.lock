@@ -1206,12 +1206,7 @@ minimatch@^5.0.1:
   dependencies:
     brace-expansion "^2.0.1"
 
-minimist@^1.2.0, minimist@^1.2.5:
-  version "1.2.5"
-  resolved "https://registry.npmjs.org/minimist/-/minimist-1.2.5.tgz"
-  integrity sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw==
-
-minimist@^1.2.6:
+minimist@^1.2.0, minimist@^1.2.5, minimist@^1.2.6:
   version "1.2.6"
   resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.6.tgz#8637a5b759ea0d6e98702cfb3a9283323c93af44"
   integrity sha512-Jsjnk4bw3YJqYzbdyBiNsPWHPfO++UGG749Cxs6peCu5Xg4nrena6OVxOYxrQTqww0Jmwt+Ref8rggumkTLz9Q==
@@ -1350,10 +1345,10 @@ npm-bundled@^1.1.1:
   dependencies:
     npm-normalize-package-bin "^1.0.1"
 
-npm-check-updates@^12.4.0:
-  version "12.5.3"
-  resolved "https://registry.yarnpkg.com/npm-check-updates/-/npm-check-updates-12.5.3.tgz#419292a9be0478754e747d9d52dfafac3dc8a907"
-  integrity sha512-siFg/+Un+j4tLA6GJCnk6hz2YU4Yc5bftDnOoiSRLKL6NeAS3FScB32mtKNBtITMJf2nsoZSr8vH+wdUGeP19g==
+npm-check-updates@^12.5.2:
+  version "12.5.4"
+  resolved "https://registry.yarnpkg.com/npm-check-updates/-/npm-check-updates-12.5.4.tgz#c783b9ec6e27508a91c97d343f7714f1b5e43ec4"
+  integrity sha512-4+27zaTdieWgvPLaCZ/A6Q2WC1cYVcrc2SqVmLFYgkWBrKw1QkwpeV16FSvkFGZr3OdFyr7Dpjw8JRn4H2QxFw==
   dependencies:
     chalk "^4.1.2"
     cint "^8.2.1"
@@ -1846,10 +1841,10 @@ smart-buffer@^4.1.0:
   resolved "https://registry.npmjs.org/smart-buffer/-/smart-buffer-4.2.0.tgz"
   integrity sha512-94hK0Hh8rPqQl2xXc3HsaBoOXKV20MToPkcXvwbISWLEs+64sBq5kFgn2kJDHb1Pry9yrP0dxrCI9RRci7RXKg==
 
-snyk@^1.858.0:
-  version "1.877.0"
-  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.877.0.tgz#0245194a1f5780f42bfa9eb4294841d520836dd2"
-  integrity sha512-q/LIn095/X8mjz0xtF1tAkmdg/GVuoLt7n7hpXMPOR/QSXQSGuk0NXpNi9i6b8TUgcA7gufVDJeLiA70InidHQ==
+snyk@^1.864.0:
+  version "1.885.0"
+  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.885.0.tgz#7ce660a4b3b80d108c47db566315680a5126d1b3"
+  integrity sha512-VIid03SKNmb3ZIbskUl99ltlcvwRgvNVpjhXyXuXPG3OpD3n2h/gD8hfSsjFcZn/qtIp/K+ozrXT3Z4JjNV9pw==
 
 socks-proxy-agent@^6.1.1:
   version "6.1.1"
