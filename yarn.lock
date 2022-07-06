@@ -106,7 +106,7 @@
   integrity sha512-s9SgS+p3a9Eohe68cSI3fi+hpcZUmXq5P7w0kMlAsWVtR7XbK3ptkZqKT2cK1zLDObJ3sR+8P59sJE0w/KTL1g==
   dependencies:
     infer-owner "^1.0.4"
-    
+
 "@npmcli/run-script@^4.1.0":
   version "4.1.5"
   resolved "https://registry.yarnpkg.com/@npmcli/run-script/-/run-script-4.1.5.tgz#d60a7d41321612a9c0e1433797c10c19d0213d55"
@@ -620,7 +620,7 @@ debug@4, debug@^4.1.0, debug@^4.1.1, debug@^4.3.1:
   dependencies:
     ms "2.1.2"
 
-debug@4.3.4:
+debug@4.3.4, debug@^4.3.3:
   version "4.3.4"
   resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.4.tgz#1319f6579357f2338d3337d2cdd4914bb5dcc865"
   integrity sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==
@@ -1303,13 +1303,6 @@ lru-cache@^7.5.1, lru-cache@^7.7.1:
   version "7.12.0"
   resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-7.12.0.tgz#be2649a992c8a9116efda5c487538dcf715f3476"
   integrity sha512-OIP3DwzRZDfLg9B9VP/huWBlpvbkmbfiBy8xmsXp4RPmE4A3MhwNozc5ZJ3fWnSg8fDcdlE/neRTPG2ycEKliw==
-
-make-dir@^3.0.0:
-  version "3.1.0"
-  resolved "https://registry.npmjs.org/make-dir/-/make-dir-3.1.0.tgz"
-  integrity sha512-g3FeP20LNwhALb/6Cz6Dd4F2ngze0jz7tbzrD2wAV+o9FeNHe4rL+yK2md0J/fiSf1sa1ADhXqi5+oVwOM/eGw==
-  dependencies:
-    semver "^6.0.0"
 
 make-fetch-happen@^10.0.3:
   version "10.0.5"
@@ -2020,14 +2013,7 @@ semver-utils@^1.1.4:
   resolved "https://registry.npmjs.org/semver-utils/-/semver-utils-1.1.4.tgz"
   integrity sha512-EjnoLE5OGmDAVV/8YDoN5KiajNadjzIp9BAHOhYeQHt7j0UWxjmgsx4YD48wp4Ue1Qogq38F1GNUJNqF1kKKxA==
 
-semver@^7.0.0, semver@^7.3.7:
-  version "7.3.7"
-  resolved "https://registry.yarnpkg.com/semver/-/semver-7.3.7.tgz#12c5b649afdbf9049707796e22a4028814ce523f"
-  integrity sha512-QlYTucUYOews+WeEujDoEGziz4K6c47V/Bd+LjSSYcA94p+DmINdf7ncaUinThfvZyu13lN9OY1XDxt8C0Tw0g==
-  dependencies:
-    lru-cache "^6.0.0"
-
-semver@^7.1.1, semver@^7.3.5:
+semver@^7.0.0, semver@^7.1.1, semver@^7.3.5, semver@^7.3.7:
   version "7.3.7"
   resolved "https://registry.yarnpkg.com/semver/-/semver-7.3.7.tgz#12c5b649afdbf9049707796e22a4028814ce523f"
   integrity sha512-QlYTucUYOews+WeEujDoEGziz4K6c47V/Bd+LjSSYcA94p+DmINdf7ncaUinThfvZyu13lN9OY1XDxt8C0Tw0g==
@@ -2059,10 +2045,10 @@ smart-buffer@^4.1.0, smart-buffer@^4.2.0:
   resolved "https://registry.npmjs.org/smart-buffer/-/smart-buffer-4.2.0.tgz"
   integrity sha512-94hK0Hh8rPqQl2xXc3HsaBoOXKV20MToPkcXvwbISWLEs+64sBq5kFgn2kJDHb1Pry9yrP0dxrCI9RRci7RXKg==
 
-snyk@^1.885.0:
-  version "1.907.0"
-  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.907.0.tgz#bc6e8a44f6cf7053833343c23d6cc152334f0c02"
-  integrity sha512-e6VeZsFTEgDnlAoy8hgV8T4kOQa0oNAu5wuU6ol5jrMuPJ/Ku2El8SokJQ9/7UMdO78Z//KyzbMn8u2cZvxc3Q==
+snyk@^1.951.0:
+  version "1.963.0"
+  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.963.0.tgz#aa99ae77c0b51fd14aa63a9b25cf45fc5aa7e0b2"
+  integrity sha512-uPy7fTBeAEGWTb/gozUYFxBm0H1OaF0uBzodc6t5EJGy0cxzBB3m9DpEOtnZtFP+pji59+YwQlpUJyhpqoyh5g==
 
 socks-proxy-agent@^6.1.1:
   version "6.1.1"
