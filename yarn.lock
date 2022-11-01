@@ -2025,10 +2025,10 @@ smart-buffer@^4.1.0, smart-buffer@^4.2.0:
   resolved "https://registry.npmjs.org/smart-buffer/-/smart-buffer-4.2.0.tgz"
   integrity sha512-94hK0Hh8rPqQl2xXc3HsaBoOXKV20MToPkcXvwbISWLEs+64sBq5kFgn2kJDHb1Pry9yrP0dxrCI9RRci7RXKg==
 
-snyk@^1.996.0:
-  version "1.996.0"
-  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.996.0.tgz#0369ca9e6a3a148751294c1320f59a79d5eb3c88"
-  integrity sha512-nq//Ely0bSt50LzX9Er5lCQNqTpaKn7I7xkhUB3Z+8rs8Jqha360HeQwhbVzsuQS3xT/1+36zt6CcgyLPM1QbA==
+snyk@^1.1025.0:
+  version "1.1044.0"
+  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.1044.0.tgz#b852d3dc65e8d7bdb0fadd7f9f1591fd09e351bb"
+  integrity sha512-mi9kF6tAPZFj1USYFJoAYxFUE4z/J2ZMJ0D8cXqlMIBewrR+r3RIBI3CNQfsOHvoWhfHZaVNh392TVAtIL2V2Q==
 
 socks-proxy-agent@^6.1.1:
   version "6.1.1"
